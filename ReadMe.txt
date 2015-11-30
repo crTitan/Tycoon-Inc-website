@@ -1,9 +1,32 @@
-ReadMe
+ReadMe - Current Status of the Site(Online) www.Tycoon.cf also on GitHub(userName: crTitan)
 
 to do-
-	->Work on pages:
-	->Get marketplace functions	
-	->Get inventory functions
-	->Break them up into separate phps...
-	->sanitize the password in the database(make sure that the casing matches)
-	
+	->Marketplace
+		-Come up with content and other functions 
+	->Inventory
+		-Come up with content and other functions
+	->Corporate 
+		-Come up with content and other functions
+	->Profile
+		-Add file upload, content and other functions
+	->Standardize all pages and PHP files
+		-Add comments
+		-Add a description of the file at the top
+		-Login Page(consider using MySQL count(*) function as per Mr. Harsh suggestion)
+	->Sanitize the passwords
+		-Case Matching
+		-Password hashing
+	->4-Steps Email verification
+		-Email syntax
+		-Proper format
+		-Check  to make sure the email and domain are real
+		-Check for wonership of email(send clickable link for verification)
+	->MySQL Queries
+		--Use Store Procedure for leftPanel content
+		-LEFT OUTER JOIN AND RIGHT OUTER JOIN for content for invetory, marketplace, and other items
+	->Page No found(Error 404)
+		-Add a page no found page
+		-Update the htaccess file accordingly
+	->Add the footer to other pages
+		-Create special footer for Login page and other non-core pages
+	->Add more content to the Database

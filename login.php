@@ -34,7 +34,6 @@ Author: Paul A. Rodriguez Hernandez
 			else{
 				$errMsg = "<p><font color='red'>Invalid username/password</font></p>";
 			}
-			
 		}
 		else {
 			$errMsg = "<p><font color='red'>Please enter a username and password</font></p>";
