@@ -1,0 +1,112 @@
+
+@import url(https:///fonts.googlapis.com/css?family=Lato:400,900,700,300);
+
+/*This is to make any specific changes to the head section*/
+head{
+	
+}
+
+h1 {
+    color:#00EEEE;
+}
+
+h4{
+	color: #FFAF0A;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background:#0B243B;
+	overflow:none;
+	color:white;
+	text-align: center;
+}
+
+#footerDiv{
+	position:relative;
+	margin-top: 750px;
+	color:  green;
+}
+
+#pagecontent {
+    position: relative;
+    width: 1210px;
+    margin: 0 auto; 
+} 
+
+#loginPageContentContainer {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto; 
+} 
+
+#leftpanel {
+    position: absolute;
+    left: 0;
+	width:190px;
+	margin-top:80px;
+	border-radius:5px;
+	min-height:630px;
+	border: 5px solid #29ABE2;
+}
+
+#loginPanel {
+    position: absolute;
+    left: 0;
+	width:200px;
+	border-radius:5px;
+	min-height:330px;
+	border: 5px solid #29ABE2;
+}
+
+#gamecontent {
+    position: absolute;
+    right:0;
+}
+
+#nav{
+	position:absolute;
+	min-width:660px;
+	top:18px;
+	right:67px;
+	font-size:1.7em;
+}
+
+li{
+	list-style-type:none;
+	display:inline;  
+	margin:4px;
+}
+
+#FAQ_bodyCSS {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 700px;
+	margin:auto;
+}
+
+#registrationCSS {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 280px;
+	margin:auto;
+}
+
+/* unvisited link */
+#signUpLink {
+    color: green;
+	text-decoration: none;
+}
+
+/* visited link */
+#signUpLink:visited{
+    color: green;
+}
+
+/* mouse over link */
+#signUpLink:hover {
+    color: yellow;
+	font-size: 150%;
+}
