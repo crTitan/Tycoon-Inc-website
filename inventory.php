@@ -9,7 +9,7 @@ require_once 'helperScripts/dbConn.php';
 //needed to query the db
 $user = $_SESSION["user"];
 
-$query= "SELECT user, money, rank, tradedeals 
+$query= "SELECT user, money, rank, trade_deals 
 		FROM playerdata
 		WHERE user = '$user'";
 		

@@ -1,0 +1,26 @@
+Tycoon.cf Change Log:
+
+12/07/2015
+ + Added the Change Log file
+ + Added items table to Corporate.php
+ + Added to the css file to style the new table
+ 
+ 
+ 12/08/2015
+ + Change the navi to read rank as opposed to profile
+ + Added ranking to the Rank page, ordered by networth
+ + Added a prototype for the items to display in the corporate page
+ + Update the the database and the queries accordingly 
+ 
+ Plan to add in near future
+ 
+ // + password hashing function 128 bit (md5)
+ // + readjust the database to accommodate the extra space foe the hashed password
+$passVar = md5(mysqli_real_escape_string($_POST['password']));
+
+
+// + create a legal SQL string that you can use in an SQL statement
+$city = $mysqli->real_escape_string($city);
+
+// + confirm email 4 steps email verification
+-no implementation yet-

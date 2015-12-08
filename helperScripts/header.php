@@ -7,6 +7,6 @@ echo
 	<title>Tycoon Inc</title>
 	<h1>Tycoon Inc</h1> 
 	  
-	<link rel='stylesheet' href='CSSLayout.css' type='text/css'> 
+	<link rel='stylesheet' href='style.css' type='text/css'> 
 </head>";
 ?>

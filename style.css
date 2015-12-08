@@ -64,14 +64,38 @@ body{
     right:0;
 }
 
+/*controls the navigation div*/
 #nav{
-	position:absolute;
+	position: absolute;
 	min-width:660px;
 	top:18px;
 	right:67px;
 	font-size:1.7em;
 }
 
+/*this controls the table div*/
+#gameControls{
+	position: absolute;
+	min-width:660px;
+	top:100px;
+	right:67px;
+	font-size:1.5em;
+}
+
+/*this controls the table*/
+table{
+
+}
+
+/*this controls the cell spacing*/
+div.cellwidener {
+  margin: 0px 45px 0px 15px;
+}
+td.tight {
+  padding: 0px;
+}
+
+/*controls the individual items in the navi div*/
 li{
 	list-style-type:none;
 	display:inline;  
